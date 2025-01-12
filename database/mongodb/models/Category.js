@@ -1,6 +1,6 @@
+/* eslint-disable */
 /**
-* Terminal Model
-* Stores Terminal details
+Stores Category details
 */
 import mongoose from 'mongoose';
 

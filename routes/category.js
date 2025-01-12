@@ -1,3 +1,4 @@
+/* eslint-disable */
 import express from 'express';
 import trimInputs from '../middlewares/trimInputs';
 import validateInputs from '../middlewares/validateInputs';

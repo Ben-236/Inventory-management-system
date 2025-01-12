@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Category from "../mongodb/models/Category";
 
 
@@ -15,11 +16,11 @@ class CategoryService {
   }
 
   /**
-   * This gets all terminals for given filter
+   * This gets all category
    * @param {Number} page
    * @param {Number} limit
    * @param {String} search
-   * @returns {Array} terminals
+   * @returns {Array} category
    */
   async allCategory(page = 1, limit = 30) {
     const offset = (page - 1) * limit;

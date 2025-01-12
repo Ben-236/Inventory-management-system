@@ -23,7 +23,7 @@ app.use(morgan(':date *** :method :: :url ** :response-time'));
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
-app.use(express.static('files'))
+app.use(express.static('files'));
 routes(app);
 
 httpServer.listen(PORT, () => {

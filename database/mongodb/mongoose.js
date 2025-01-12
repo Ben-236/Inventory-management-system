@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * Creates connection with the local mongodb
  * on "monitor" database

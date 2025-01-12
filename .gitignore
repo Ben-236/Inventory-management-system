@@ -4,3 +4,4 @@ files/**/*.xlsx
 yarn-error.log
 yarn.lock
 .env
+.env.example

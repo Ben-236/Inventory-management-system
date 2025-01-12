@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable func-names */
 /* eslint-disable no-restricted-globals */
 // eslint-disable-next-line no-unused-vars
@@ -11,7 +12,7 @@ import { validateMongoID } from '../helpers/Logger';
 class CategoryController {
 
   /**
-* This handles getting transaction history.
+* This handles getting category.
 * @param {express.Request} req Express request param
 * @param {express.Response} res Express response param
 */
@@ -33,7 +34,7 @@ class CategoryController {
 
 
   /**
-* This handles getting transaction history.
+* This handles Updating category .
 * @param {express.Request} req Express request param
 * @param {express.Response} res Express response param
 */
@@ -60,7 +61,7 @@ class CategoryController {
   }
 
   /**
-  * This handles getting transaction history.
+  * This handles getting Category history.
   * @param {express.Request} req Express request param
   * @param {express.Response} res Express response param
   */

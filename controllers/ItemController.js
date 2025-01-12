@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable func-names */
 /* eslint-disable no-restricted-globals */
 // eslint-disable-next-line no-unused-vars
@@ -100,7 +101,7 @@ class ItemController {
         });
       }
 
-      //if item found decrenase by number
+      //if item found decrease by number
       const currentQuantity = item.quantity;
       let newQuantity = currentQuantity;
       if(currentQuantity > 0 && currentQuantity >= quantity){

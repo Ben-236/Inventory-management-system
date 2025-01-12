@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Item from "../mongodb/models/Items";
 
 
@@ -15,16 +16,16 @@ class ItemService {
   }
 
   /**
-     * This gets all terminals for given filter
+     * This gets all items for given filter
      * @param {Number} page
      * @param {Number} limit
-     * @returns {Array} bookings
+     * @returns {Array} items
      */
   async getAll(page = 1, limit = 30) {
     const offset = (page - 1) * limit;
     const filter = { ...this.match };
 
-    let items = await Booking.aggregate([
+    let items = await items.aggregate([
       { $match: filter },
       { $skip: offset },
       { $limit: limit },

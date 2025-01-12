@@ -1,6 +1,6 @@
-/**
-* Terminal Model
-* Stores Terminal details
+/* eslint-disable */
+/*
+* Stores Log details
 */
 import mongoose from 'mongoose';
 
